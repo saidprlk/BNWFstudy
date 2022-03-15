@@ -24,7 +24,7 @@ pattern Plain 1 $ts_lin {
 #-E force section.force section.fiber.stress
 
 
-system SparseGeneral -piv
+system BandGeneral
 constraints Transformation
 test NormDispIncr 1.0e-8 250
 algorithm KrylovNewton
